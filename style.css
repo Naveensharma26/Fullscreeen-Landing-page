@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-img {
+  background: url("beach3.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: #68472a;
+  height: 100vh;
+}
+
+.main-img h1 {
+  margin: 16px 0px;
+  font-size: 55px;
+}
+
+.main-img p {
+  font-size: 1.4em;
+}
+
+#btn-more {
+  width: fit-content;
+  margin: 20px;
+  padding: 10px 24px;
+  border: 2px solid #6b492b;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 10px;
+  background-color: transparent;
+  align-self: center;
+}
+
+#btn-more:hover {
+  color: #926239;
+  background-color: white;
+}
+
+.content-grid {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: auto auto auto;
+}
+
+.first {
+  background-color: #885e3a;
+  color: white;
+  grid-column: 1/4;
+  padding: 10px;
+  line-height: 1.5;
+  font-size: 17px;
+  text-align: center;
+}
+
+.second {
+  line-height: 1.5;
+  font-size: 17px;
+  color: #885e3a;
+  padding: 10px;
+  text-align: center;
+  grid-column: 1/4;
+}
+
+.third {
+  line-height: 1.5;
+  background-color: #885e3a;
+  font-size: 17px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+.fourth {
+  line-height: 1.5;
+  font-size: 17px;
+  color: #885e3a;
+  padding: 10px;
+  text-align: center;
+}
